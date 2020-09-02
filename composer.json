@@ -1,0 +1,23 @@
+{
+    "name": "lime/module-faristest",
+    "description": "Faris Test Module",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lime\\FarisTest\\": ""
+        }
+    }
+}
